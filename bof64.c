@@ -11,7 +11,7 @@ int main(){
   if(strlen(c) != 10){
     printf("Error: Panjang data harus 10 Yeeee\n");
   }else{
-    if (b == 0xdeadf00d){
+    if (b == 0xbac0dc0c){
       printf("Onichan BAKA!!! >:|\n");
       system("cat flag.txt");
     }else{
